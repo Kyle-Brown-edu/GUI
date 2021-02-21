@@ -8,49 +8,33 @@
 <?import javafx.scene.layout.VBox?>
 <?import javafx.scene.text.Font?>
 
-
-<AnchorPane maxHeight="-Infinity" maxWidth="600.0" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0"
-            prefWidth="700.0" xmlns="http://javafx.com/javafx" xmlns:fx="http://javafx.com/fxml/">
-   <AnchorPane layoutX="23.0" layoutY="14.0" prefHeight="538.0" prefWidth="579.0" style="-fx-background-color: white;"
-               AnchorPane.bottomAnchor="47.0" AnchorPane.leftAnchor="23.0" AnchorPane.rightAnchor="23.0"
-               AnchorPane.topAnchor="47.0">
-      <AnchorPane layoutX="23.0" layoutY="45.0" maxWidth="402.0" prefHeight="414.0" prefWidth="340.0"
-                  style="-fx-background-color: white; -fx-background-radius: 1em;" AnchorPane.bottomAnchor="47.0"
-                  AnchorPane.leftAnchor="280.0" AnchorPane.rightAnchor="23.0" AnchorPane.topAnchor="45.0">
-         <Label layoutX="76.0" layoutY="37.0" prefHeight="26.0" prefWidth="100.0" text="Sign In"
-                AnchorPane.leftAnchor="76.0" AnchorPane.rightAnchor="175.0" AnchorPane.topAnchor="37.0">
+<AnchorPane maxHeight="-Infinity" maxWidth="600.0" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="700.0" style="-fx-background-color: transparent;" xmlns="http://javafx.com/javafx/15.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <AnchorPane layoutX="23.0" layoutY="14.0" prefHeight="538.0" prefWidth="579.0" style="-fx-background-color: white;" AnchorPane.bottomAnchor="47.0" AnchorPane.leftAnchor="23.0" AnchorPane.rightAnchor="23.0" AnchorPane.topAnchor="47.0">
+      <AnchorPane layoutX="23.0" layoutY="45.0" maxWidth="402.0" prefHeight="414.0" prefWidth="340.0" style="-fx-background-color: white; -fx-background-radius: 1em;" AnchorPane.bottomAnchor="47.0" AnchorPane.leftAnchor="280.0" AnchorPane.rightAnchor="23.0" AnchorPane.topAnchor="45.0">
+         <Label layoutX="76.0" layoutY="37.0" prefHeight="26.0" prefWidth="100.0" text="Sign In" AnchorPane.leftAnchor="76.0" AnchorPane.rightAnchor="175.0" AnchorPane.topAnchor="37.0">
             <font>
-               <Font size="18.0"/>
+               <Font size="18.0" />
             </font>
          </Label>
-         <JFXTextField focusColor="#ff8021" labelFloat="true" layoutX="76.0" layoutY="103.0" prefHeight="40.0"
-                       prefWidth="234.0" promptText="User Name" unFocusColor="BLACK"
-                       AnchorPane.leftAnchor="75.99999999999997" AnchorPane.rightAnchor="40.599999999999994"/>
-         <JFXPasswordField focusColor="#ff8021" labelFloat="true" layoutX="76.0" layoutY="174.0" prefHeight="40.0"
-                           prefWidth="234.0" promptText="Password" unFocusColor="BLACK"
-                           AnchorPane.leftAnchor="75.99999999999997" AnchorPane.rightAnchor="40.599999999999994"/>
-         <JFXButton buttonType="RAISED" layoutX="76.0" layoutY="261.0" prefHeight="40.0" prefWidth="74.0"
-                    ripplerFill="WHITE" style="-fx-background-radius: 1em; -fx-background-color: orange;"
-                    text="Sign In" AnchorPane.leftAnchor="76.0" AnchorPane.rightAnchor="200.6"/>
+         <JFXTextField focusColor="#ff8021" labelFloat="true" layoutX="76.0" layoutY="103.0" prefHeight="40.0" prefWidth="234.0" promptText="User Name" unFocusColor="BLACK" AnchorPane.leftAnchor="75.99999999999997" AnchorPane.rightAnchor="40.599999999999994" />
+         <JFXPasswordField focusColor="#ff8021" labelFloat="true" layoutX="76.0" layoutY="174.0" prefHeight="40.0" prefWidth="234.0" promptText="Password" unFocusColor="BLACK" AnchorPane.leftAnchor="75.99999999999997" AnchorPane.rightAnchor="40.599999999999994" />
+         <JFXButton buttonType="RAISED" layoutX="76.0" layoutY="261.0" prefHeight="40.0" prefWidth="74.0" ripplerFill="WHITE" style="-fx-background-radius: 1em; -fx-background-color: orange;" text="Sign In" AnchorPane.leftAnchor="76.0" AnchorPane.rightAnchor="200.6" />
       </AnchorPane>
-      <AnchorPane layoutX="14.0" layoutY="22.0" prefHeight="458.0" prefWidth="298.0"
-                  style="-fx-background-color: linear-gradient(to right bottom, #e96f00, #cf8800, #ab9f00, #79b100, #06c00d); -fx-background-radius: 1em;"
-                  AnchorPane.bottomAnchor="33.0" AnchorPane.leftAnchor="14.0" AnchorPane.topAnchor="33.0">
-         <VBox alignment="CENTER_LEFT" layoutX="77.0" layoutY="165.0" prefHeight="110.0" prefWidth="144.0"
-               AnchorPane.bottomAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+      <AnchorPane layoutX="14.0" layoutY="22.0" prefHeight="458.0" prefWidth="298.0" style="-fx-background-color: linear-gradient(to right bottom, #e96f00, #cf8800, #ab9f00, #79b100, #06c00d); -fx-background-radius: 1em;" AnchorPane.bottomAnchor="33.0" AnchorPane.leftAnchor="14.0" AnchorPane.topAnchor="33.0">
+         <VBox alignment="CENTER_LEFT" layoutX="77.0" layoutY="165.0" prefHeight="110.0" prefWidth="144.0" AnchorPane.bottomAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
             <Label text=" Welcome To" textFill="#fffafa">
                <font>
-                  <Font size="16.0"/>
+                  <Font size="16.0" />
                </font>
             </Label>
             <Label text="IMS" textFill="#f2f2f2">
                <font>
-                  <Font size="28.0"/>
+                  <Font size="28.0" />
                </font>
             </Label>
             <Label text="by CT3" textFill="WHITE">
                <font>
-                  <Font size="16.0"/>
+                  <Font size="16.0" />
                </font>
             </Label>
          </VBox>
