@@ -37,10 +37,11 @@
             <AnchorPane layoutY="60.0" prefHeight="154.0" prefWidth="121.0">
                <children>
                   <JFXTextField focusColor="#ffa600" layoutX="2.0" layoutY="14.0" prefHeight="25.0" prefWidth="117.0" promptText="Search" unFocusColor="BLACK" AnchorPane.bottomAnchor="115.0" AnchorPane.leftAnchor="2.0" AnchorPane.rightAnchor="2.0" AnchorPane.topAnchor="14.0" />
-                  <MenuButton layoutX="11.0" layoutY="52.0" mnemonicParsing="false" text="Item Options">
+                  <MenuButton layoutX="11.0" layoutY="52.0" mnemonicParsing="false" text="DB Options">
                     <items>
-                      <MenuItem mnemonicParsing="false" text="Action 1" />
-                      <MenuItem mnemonicParsing="false" text="Action 2" />
+                      <MenuItem mnemonicParsing="false" text="Add Entry" />
+                      <MenuItem mnemonicParsing="false" text="Edit Entry" />
+                        <MenuItem mnemonicParsing="false" text="Delete Entry" />
                     </items>
                   </MenuButton>
                </children>
