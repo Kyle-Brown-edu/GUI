@@ -11,6 +11,8 @@ import javafx.scene.paint.Color;
 import javafx.stage.Stage;
 import javafx.stage.StageStyle;
 
+import java.io.IOException;
+
 public class Main extends Application {
     // Double vars for dragging window
     private double Xoff = 0;
@@ -45,7 +47,12 @@ public class Main extends Application {
 
         //Displays the stage(window)
         primaryStage.show();
+        //showNextStage("DBScreen.fxml");
     }
+
+
+
+
 
     //Launches the program
     public static void main(String[] args) {

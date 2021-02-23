@@ -7,18 +7,18 @@ public class dbController {
 
 
     @FXML
-    private TableColumn<dataBaseItems, String> col_id;
+    public TableColumn<dataBaseItems, String> col_id;
 
     @FXML
-    private TableColumn<dataBaseItems,Integer> col_quantity;
+    public TableColumn<dataBaseItems,Integer> col_quantity;
 
     @FXML
-    private TableColumn<dataBaseItems, Float> col_cost;
+    public TableColumn<dataBaseItems, Float> col_cost;
 
     @FXML
-    private TableColumn<dataBaseItems, Float> col_price;
+    public TableColumn<dataBaseItems, Float> col_price;
 
     @FXML
-    private TableColumn<dataBaseItems, String> col_sid;
+    public TableColumn<dataBaseItems, String> col_sid;
 
 }

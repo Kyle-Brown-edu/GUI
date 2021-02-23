@@ -1,9 +1,17 @@
 package gtest;
 
 import javafx.event.ActionEvent;
+import javafx.event.EventHandler;
 import javafx.fxml.FXML;
+import javafx.fxml.FXMLLoader;
+import javafx.scene.Node;
+import javafx.scene.Parent;
+import javafx.scene.Scene;
 import javafx.scene.control.Button;
+import javafx.scene.input.MouseEvent;
 import javafx.stage.Stage;
+
+import java.io.IOException;
 
 public class Controller {
 
@@ -12,6 +20,7 @@ public class Controller {
 
     @FXML
     public Button signBtn;
+
 
     @FXML
     public String userName;
@@ -43,11 +52,13 @@ public class Controller {
     }
 
     @FXML
-    public void sign_Button(){
-        //will call get_User() & get_Pass()
-        //will have the call to authentication
-        // and then will call the DBScreen after successful authentication
+    public void signIn_button(ActionEvent event) throws IOException {
+        Parent DbsScreen = FXMLLoader.load(getClass().getResource("DBScreen.fxml"));
+        Scene DbsScene = new Scene(DbsScreen);
+        Stage dbsStage = (Stage) ((Node) event.getSource()).getScene().getWindow();
+        dbsStage.setScene(DbsScene);
+        dbsStage.show();
     }
 
-
 }
+
